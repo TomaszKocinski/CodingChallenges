@@ -1,14 +1,14 @@
 package com.company.codewars;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class BreakingChocolateProblemTest {
 
     @Test
     void breakChocolate() {
-        assertEquals(24 , BreakingChocolateProblem.breakChocolate(5, 5));
-        assertEquals(0 , BreakingChocolateProblem.breakChocolate(1, 1));
+        Assert.assertEquals(24 , BreakingChocolateProblem.breakChocolate(5, 5));
+        Assert.assertEquals(0 , BreakingChocolateProblem.breakChocolate(1, 1));
     }
 }
