@@ -1,12 +1,11 @@
 package com.company.codewars;
 
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
-class SortTheOddTest {
+public class SortTheOddTest {
 
     @Test
     public void exampleTest1() {

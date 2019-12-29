@@ -4,10 +4,10 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-class BreakingChocolateProblemTest {
+public class BreakingChocolateProblemTest {
 
     @Test
-    void breakChocolate() {
+    public void breakChocolate() {
         Assert.assertEquals(24 , BreakingChocolateProblem.breakChocolate(5, 5));
         Assert.assertEquals(0 , BreakingChocolateProblem.breakChocolate(1, 1));
     }

@@ -9,7 +9,7 @@ import java.util.function.LongUnaryOperator;
 import java.util.stream.LongStream;
 
 public class ReducingBySteps {
-    public static long gcdi(long x, long y) {
+   /* public static long gcdi(long x, long y) {
         while (x != y) // while the two numbers are not equal...
         {
 
@@ -33,5 +33,5 @@ public class ReducingBySteps {
     }
     public static long[] operArray(BiFunction<Long, Long, Long> function, long[] arr, long init) {
         arr.
-    }
+    }*/
 }
